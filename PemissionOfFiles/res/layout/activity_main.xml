@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.registerandlogin.MainActivity" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="请输入用户名" />
+
+    <EditText
+        android:id="@+id/et_usrname"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入用户名" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="请输入密码" />
+
+    <EditText
+        android:id="@+id/et_passwd"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入密码"
+        android:inputType="textPassword" />
+    <RadioGroup
+        android:orientation="horizontal"
+        android:id="@+id/rg_mode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/rd_private"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Private" />
+
+        <RadioButton
+            android:id="@+id/rd_readable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Readable" />
+
+        <RadioButton
+            android:id="@+id/rd_writable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Writable"/>
+            
+		<RadioButton
+            android:id="@+id/rd_open"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Open" />
+    </RadioGroup>
+    
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <CheckBox
+            android:id="@+id/cb_savecookies"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="记住密码" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:onClick="login"
+            android:text="登陆" />
+    </RelativeLayout>
+
+
+</LinearLayout>

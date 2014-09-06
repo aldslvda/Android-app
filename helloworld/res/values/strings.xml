@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">helloworld</string>
+    <string name="title_section1">个人信息</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="action_settings">编辑个人信息</string>
+    <string name="title_name">姓名:</string>
+    <string name="hint_name">请输入姓名</string>
+    <string name="tv_gender">性别:</string>
+    <string name="tv_career">职业:</string>
+    <string name="choose_career">选择职业</string>
+    <string name="career_student">学生</string>
+    <string name="career_teacher">老师</string>
+    <string name="career_else">其他</string>
+    <string name="please_choose">请选择</string>
+    <string name="singleornot">恋爱状态:</string>
+    <string name="single">FFF团</string>
+    <string name="inlove">烧死</string>
+    <string name="title_email">E-mail</string>
+    <string name="hint_email">xxxxxxxx@xx.com</string>
+    <string name="title_phone">电话</string>
+    <string name="hint_phone">请输入您的电话</string>
+    <string name="dail">拨打</string>
+</resources>
