@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.nickalds.saveimage.MainActivity" >
+
+    <Button 
+        android:id="@+id/bt_save1"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:text="save image 01"
+    	/>
+
+    <Button
+        android:id="@+id/bt_save2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="save image 02" />
+
+    <Button
+        android:id="@+id/bt_search1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bt_save1"
+        android:layout_marginTop="42dp"
+        android:text="search image 01" />
+
+    <Button
+        android:id="@+id/bt_search2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/bt_save2"
+        android:layout_below="@+id/bt_search1"
+        android:layout_marginTop="24dp"
+        android:text="search image 02" />
+
+    <ImageView
+        android:id="@+id/iv_02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/bt_search1"
+        android:layout_below="@+id/bt_search2"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="23dp"
+        android:src="@drawable/ic_launcher" />
+
+    <ImageView
+        android:id="@+id/iv_01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/bt_search2"
+        android:layout_alignTop="@+id/iv_02"
+        android:layout_marginRight="38dp"
+        android:src="@drawable/ic_launcher" />
+
+</RelativeLayout>
